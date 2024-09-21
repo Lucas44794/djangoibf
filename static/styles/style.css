@@ -1,0 +1,150 @@
+header {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #007BFF;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    margin-top: 10px; /* Adiciona um pequeno espaço acima do botão */
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(0, 162, 255); /* Cor de fundo quando o mouse passa por cima */
+}
+
+main {
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+
+#login {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.h2login {
+    font-size: 30px;
+}
+#loginForm input {
+    font-weight: 200;
+}
+#video {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: rgb(213, 213, 213);
+}
+#contatoForm {
+    margin-top: 10px;
+}
+#mensagem {
+    width: 50%;
+}
+#cadastro {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 0.06px;
+    -webkit-text-stroke-color: rgb(213, 213, 213);
+    margin-top: 5em;
+}
+
+#cadastroForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cadastroForm .form-control {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#cadastroForm label {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+#cadastroForm button {
+    padding: 10px;
+    width: 50%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cadastroForm button:hover {
+    background-color: #218838;
+}
+.titulo-pagina{
+    font-size: 85px;
+}
+
+
+/* Consulta de mídia para dispositivos com largura máxima de 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+    header, nav, main, form, footer {
+        margin: 0;
+        padding: 10px;
+        font-size: 50px;
+    }
+    #login {
+        height: auto;
+        padding: 20px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+}
+.texto123 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
